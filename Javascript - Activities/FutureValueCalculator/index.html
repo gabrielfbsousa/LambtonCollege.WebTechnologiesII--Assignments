@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>Join Email List</title>
+	<link rel="stylesheet" href="future_value.css">
+   	<script src="future_value.js"></script>
+</head>
+	<body>
+        <h1>Future Value Calculator</h1>
+        
+        <label for="total_investment">Total Investment: </label>
+        <input type="text" id="total_investment" name="total_investment" >
+        <span id="total_investment_error">*</span></br>
+        
+        <label for="annual_interest_rate">Annual Interest Rate: </label>
+        <input type="text" id="annual_interest_rate" name="annual_interest_rate" ondblclick="clearRateField()">
+        <span id="annual_interest_rate_error">*</span></br>
+        
+        <label for="number_of_years">Number of Years: </label>
+        <input type="text" id="number_of_years" name="number_of_years" >
+        <span id="number_of_years_error">*</span></br>
+        
+        <label for="future_value">Future value: </label>
+        <input type="text" id="future_value" name="future_value" disabled><br/> 
+        
+        <label>&nbsp;</label>
+        <div id="container">
+        <input type="button" id="calculate" value="Calculate">
+        <input type="button" id="clear" value="Clear All" />
+        </div>
+    </body>
+</html>
