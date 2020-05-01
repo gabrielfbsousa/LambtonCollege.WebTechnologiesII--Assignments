@@ -1,6 +1,6 @@
 ![College](https://img.shields.io/badge/College-Lambton_College-blue)
-![Language](https://img.shields.io/badge/Language-C%23-blueviolet)
-![IDE](https://img.shields.io/badge/IDE-Visual_Studio-blueviolet)
+![Language](https://img.shields.io/badge/Language-Javascript_and_jQuery-red)
+![IDE](https://img.shields.io/badge/IDE-Sublime-yellow)
 
 
 # Web Technologies II :: Assignments
